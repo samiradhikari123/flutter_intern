@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'list.dart';
 
 class Screens extends StatefulWidget {
@@ -92,10 +91,10 @@ class _ScreensState extends State<Screens> {
                 const Text("Scroll View"),
                 const Text("This is the scroll view"),
                 SizedBox(
-                  height: 350,
+                  height: 250,
                   child: ListView.builder(
                       itemCount: seeAll ? url.length : 5,
-                      itemBuilder: (BuildContext, int) {
+                      itemBuilder: (buildcontext, int int) {
                         return Padding(
                           padding: const EdgeInsets.all(3.0),
                           child: Container(
@@ -105,7 +104,7 @@ class _ScreensState extends State<Screens> {
                               leading: Image.network(
                                 url[int],
                                 fit: BoxFit.cover,
-                                // height: 150,
+                                height: 150,
                                 width: 120,
                               ),
                               title: Text('Title ${int + 1}'),
@@ -129,7 +128,7 @@ class _ScreensState extends State<Screens> {
                     child: Text(seeAll ? "Show Less" : "Show More")),
                 Wrap(
                   children: [
-                    Text("Hey Jude!"),
+                    const Text("Hey Jude!"),
                     for (int i = 0; i < (seeAllText ? text.length : 5); i++)
                       Text(text[i]),
                     TextButton(

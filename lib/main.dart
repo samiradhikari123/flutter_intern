@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'day3/screens.dart';
+
+import 'day4/day4_home.dart';
 
 void main() {
   runApp(const Day3());
@@ -12,7 +13,7 @@ class Day3 extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Screens(),
+      home: Day4Screen(),
     );
   }
 }
