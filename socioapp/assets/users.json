@@ -1,0 +1,62 @@
+[
+  {
+    "id":1,
+    "username":"rajesh_dos",
+    "email": "hamal@mail.com",
+    "password":"Rajesh@5"
+  },
+  {
+    "id":2,
+    "username":"harry_dos",
+    "email": "harry@mail.com",
+    "password":"Harry@5"
+  },
+  {
+    "id":3,
+    "username":"rahul_dos",
+    "email": "rahul@mail.com",
+    "password":"Rahul@5"
+  },
+  {
+    "id":4,
+    "username":"amir_dos",
+    "email": "amir@mail.com",
+    "password":"Amir@5"
+  },
+  {
+    "id":5,
+    "username":"saurav_dos",
+    "email": "saurav@mail.com",
+    "password":"Saurav@5"
+  },
+  {
+    "id":6,
+    "username":"chedar_dos",
+    "email": "chedar@mail.com",
+    "password":"Chedar@5"
+  },
+  {
+    "id":7,
+    "username":"bhatte_dos",
+    "email": "bhatte@mail.com",
+    "password":"Bhatte@5"
+  },
+  {
+    "id":8,
+    "username":"ayush_dos",
+    "email": "ayush@mail.com",
+    "password":"Ayush@5"
+  },
+  {
+    "id":9,
+    "username":"chatur_dos",
+    "email": "chatur@mail.com",
+    "password":"Chatur@5"
+  },
+  {
+    "id":10,
+    "username":"rancho_dos",
+    "email": "rancho@mail.com",
+    "password":"Rancho@5"
+  }
+]
